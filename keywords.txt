@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map For HDC3020_i2c
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+hdc3020	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+singleShotTempHum			KEYWORD2
+startPeriodicMeasurement				KEYWORD2
+endPeriodicMeasurement				KEYWORD2
+getPeriodicMeasurementTempHum				KEYWORD2
+getDewpoint				KEYWORD2
+getPeriodicMeasurementMinTemp				KEYWORD2
+getPeriodicMeasurementMaxTemp				KEYWORD2
+getPeriodicMeasurementMinHum				KEYWORD2
+getPeriodicMeasurementMaxHum				KEYWORD2
+changeDefaultDevicePowerOn				KEYWORD2
+changeSetLowAlert				KEYWORD2
+changeClearLowAlert				KEYWORD2
+changeSetHighAlert				KEYWORD2
+changeClearHighAlert				KEYWORD2
+readSetLowAlert				KEYWORD2
+readClearLowAlert				KEYWORD2
+readSetHighAlert				KEYWORD2
+readClearHighAlert				KEYWORD2
+deactivateEnvironmentalTracking				KEYWORD2
+TransferThresholdsIntoNonVolatileMemory				KEYWORD2
+changeOffsetValue				KEYWORD2
+readOffsetValue				KEYWORD2
+changeHeaterCurrent				KEYWORD2
+readHeaterCurrent				KEYWORD2
+heaterOn				KEYWORD2
+heaterOff				KEYWORD2
+readIdentification				KEYWORD2
+HeaterOnOff				KEYWORD2
+readStatusRegister				KEYWORD2
+clearStatusregister				KEYWORD2
+reset				KEYWORD2
+getErrorString				KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+CRC8_ONEWIRE_POLY	LITERAL1
+CRC8_ONEWIRE_START	LITERAL1
